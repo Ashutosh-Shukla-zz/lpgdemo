@@ -21,6 +21,7 @@ Some assumtions that were made on the business logic are:
 * Vendor will create passes, for customers to add with pass_length and pass_city. Vendor can also delete a pass and validate a pass.
 * Customer can get all valid passes and send a post to add passes to their account
 * Customers have the option to renew passes by providing a pass length and cancel a given pass(Removes the pass from customers account)
+* Passes become available when vendors add them and are not expired, expired pass dont show up in /allpasses
 
 
 ## Requirements
